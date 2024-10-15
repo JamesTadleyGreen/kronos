@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ds2xgrdfhd156"]
+
+[ext_resource type="Script" path="res://scenes/components/jump/big_jump_component.gd" id="1_gm7t8"]
+
+[node name="BigJump" type="Node2D"]
+script = ExtResource("1_gm7t8")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(-12, 29)
+polygon = PackedVector2Array(0, 0, 0, 0, 21, 5, 38, -13, 12, -18, -22, -13, -9, 3)

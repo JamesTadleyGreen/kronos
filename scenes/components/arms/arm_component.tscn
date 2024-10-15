@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2ns7v0w1vy81"]
+
+[ext_resource type="Script" path="res://scenes/components/player/arm_component.gd" id="1_gtjhc"]
+
+[node name="ArmComponent" type="Node"]
+script = ExtResource("1_gtjhc")

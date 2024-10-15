@@ -8,7 +8,6 @@ extends CharacterBody2D
 @export var jump_component: JumpComponent
 @export var animation_component: AnimationComponent
 
-
 func _physics_process(delta: float) -> void:
 	gravity_component.handle_gravity(self, delta)
 	movement_component.handle_horizontal_movement(self, input_component.input_horizontal)

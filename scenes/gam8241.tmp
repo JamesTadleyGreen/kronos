@@ -15,13 +15,12 @@ script = ExtResource("1_k4h6u")
 script = ExtResource("2_bhcow")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="World/StaticBody2D"]
-position = Vector2(1, 26)
 polygon = PackedVector2Array(-70, 24, -20, 28, 7, 42, 41, 55, 95, 72, 168, 57, 244, 48, 331, 47, 410, 140, 157, 170, 94, 157, 25, 147, -68, 145, -68, 87)
 
 [node name="Polygon2D" type="Polygon2D" parent="World/StaticBody2D/CollisionPolygon2D"]
 
 [node name="Player" parent="World" instance=ExtResource("5_wc3tc")]
-position = Vector2(95, 85)
+position = Vector2(97, 36)
 floor_snap_length = 4.0
 
 [node name="Camera2D" type="Camera2D" parent="World/Player"]
